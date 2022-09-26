@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="move_activity">PINDAH ACTIVITY</string>
+    <string name="move_with_data">PINDAH ACTIVITY DENGAN MEMBAWA DATA</string>
+    <string name="this_is_moveactivity">SELAMAT, INI PERPINDAHAN ACTIVITY PERTAMA ANDA DI APLIKASI</string>
+    <string name="dial_number">panggil saya</string>
+    <string name="choose_number">pilih nomor</string>
+    <string name="choose">pilih</string>
+    <string name="move_with_result">pindah dengan hasil</string>
+    <string name="result_from_activity">hasil dari activity</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+</resources>
