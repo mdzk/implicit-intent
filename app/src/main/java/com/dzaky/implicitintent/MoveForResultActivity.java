@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-public class MoveForResultActivity extends AppCompatActivity {
+public class MoveForResultActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnChoose;
     private RadioGroup rgNumber;
@@ -24,9 +24,8 @@ public class MoveForResultActivity extends AppCompatActivity {
         btnChoose = findViewById(R.id.btn_choose);
         rgNumber = findViewById(R.id.rg_number);
 
-        btnChoose.setOnClickListener((View.OnClickListener) this);
+        btnChoose.setOnClickListener(this);
     }
-
 
     public void onClick(View view) {
         if (view.getId() == R.id.btn_choose) {
